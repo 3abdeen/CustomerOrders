@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerOrders.Api", "CustomerOrders.Api\CustomerOrders.Api.csproj", "{4D44A053-8EAE-4933-B4F0-58187860E179}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerOrder.Infrastructure", "CustomerOrder.Infrastructure\CustomerOrder.Infrastructure.csproj", "{6B78B93E-91D0-45A1-AF24-A98A44F42403}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Postman", "Postman", "{9DAB84B8-073F-4579-B13E-D2F711990056}"
+	ProjectSection(SolutionItems) = preProject
+		Customer Orders Web API.postman_collection.json = Customer Orders Web API.postman_collection.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D44A053-8EAE-4933-B4F0-58187860E179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D44A053-8EAE-4933-B4F0-58187860E179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D44A053-8EAE-4933-B4F0-58187860E179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D44A053-8EAE-4933-B4F0-58187860E179}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B78B93E-91D0-45A1-AF24-A98A44F42403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B78B93E-91D0-45A1-AF24-A98A44F42403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B78B93E-91D0-45A1-AF24-A98A44F42403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B78B93E-91D0-45A1-AF24-A98A44F42403}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15CEF716-7C21-4CF8-8D97-941F88645876}
+	EndGlobalSection
+EndGlobal
