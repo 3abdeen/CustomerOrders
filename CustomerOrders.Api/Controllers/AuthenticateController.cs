@@ -35,7 +35,7 @@ namespace CustomerOrders.Api
         /// <summary>
         /// Authenticate Current User
         /// </summary>
-        /// <param name="model"><para>User Name : admin@CustomerProducts.com</para>
+        /// <param name="model"><para>User Name : admin@CustomerOrderss.com</para>
         /// <para>Password : 123456aA!</para>
         /// </param>
         /// <returns>Success with token/Failed with error</returns>
